@@ -1,0 +1,16 @@
+site:
+  title: Titre du site
+  description: "Description du site"
+  keywords: "mot, clef, keywords"
+
+author:
+  name: Prénom Nom
+  company: Entreprise
+  address: Adresse
+  phone: 0700000000
+  email: info@email.ch
+
+social:
+  instagram: "https://www.instagram.com/ID"
+  facebook: "https://facebook.com/ID"
+  linkedin: "https://www.linkedin.com/company/ID"

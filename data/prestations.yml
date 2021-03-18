@@ -1,0 +1,14 @@
+presta1:
+  titre: Prestation 1
+  description: Description1
+  picture: pictures/my_picture.jpg
+
+presta2:
+  titre: Prestation 2
+  description: Description2
+  picture: pictures/my_picture.jpg
+
+presta3:
+  titre: Prestation 3
+  description: Description3
+  picture: pictures/my_picture.jpg
