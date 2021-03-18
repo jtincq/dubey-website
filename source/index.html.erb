@@ -2,25 +2,43 @@
 id: home
 title: Titre de la page
 banner_picture:  my_banner.jpg
-banner_title: Titre de la banner
-banner_text: Texte de la banner.
+banner_title: Dubey Peinture
+banner_text: Texte de description à ajouter.
 banner_layout: content-home
 banner_gradient: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),
 ---
 
 <div class="main-container">
   <div class="card-call text-center">
-    <h2>Cliquez sur ce super bouton qui ouvre un formulaire</h2>
+    <h2>Vous avez un projet ?</h2>
     <!-- Button trigger modal -->
     <button type="button" class="btn-blue" data-toggle="modal" data-target="#formCallModal">
-      Super bouton
+      Contactez-nous
     </button>
   </div>
   <!-- Modal -->
   <%= partial "layouts/partials/form-call-modal" %>
 </div>
 
-<div class="ruban">
+<div class="main-container padding-bottom">
+  <div class="cards cards-small">
+    <% data.prestations.each do |f, prestation| %>
+      <div class="card-verti text-center">
+        <div class="picto">
+          <%= prestation.icon %>
+        </div>
+        <div class="card-verti-infos">
+          <div>
+            <h3><%= prestation.titre %></h3>
+            <p><%= prestation.subtitle %></p>
+          </div>
+        </div>
+      </div>
+    <% end %>
+  </div>
+</div>
+
+<!-- <div class="ruban">
   <div class="main-container">
     <h2 class="padding-bottom">Exemple de réussite</h2>
     <div class="card-hori background-white">
@@ -36,7 +54,7 @@ banner_gradient: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.2)),
       </div>
     </div>
   </div>
-</div>
+</div> -->
 
 <div class="ruban ruban-blue-right margin-bottom">
   <div class="main-container">
