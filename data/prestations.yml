@@ -1,14 +1,31 @@
-presta1:
-  titre: Prestation 1
-  description: Description1
+analyse:
+  titre: Analyses
+  description: Analyse, réflexion et traitement des surfaces.
   picture: pictures/my_picture.jpg
 
-presta2:
-  titre: Prestation 2
-  description: Description2
+peinture:
+  titre: Peintures
+  description: Réalisations en intérieur et en extérieur
   picture: pictures/my_picture.jpg
 
-presta3:
-  titre: Prestation 3
-  description: Description3
+papiers:
+  titre: Papiers peints
+  description: Poses de diverses gammes de papiers peints.
   picture: pictures/my_picture.jpg
+
+revetements:
+  titre: Revêtements
+  description: Revêtements en toiles de verre.
+  picture: pictures/my_picture.jpg
+
+crepi:
+  titre: Crépi
+  description: Application de crépi taloché.
+  picture: pictures/my_picture.jpg
+
+boiseries:
+  titre: Boiseries
+  description: Entretiens et remise en état des boiseries.
+  picture: pictures/my_picture.jpg
+
+
